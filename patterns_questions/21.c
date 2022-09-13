@@ -1,0 +1,30 @@
+#include<stdio.h>
+ int main()
+ {
+    int i,j;
+    for(i=0;i<7;i++)
+    {
+        printf("\n");
+        if(i==0||i==6)
+        {
+        for(j=0;j<7;j++)
+        {
+            printf("4");
+         }
+        }
+        else
+        {
+            for(j=0;j<7;j++)
+            {
+                if(j==0||j==6)
+                {
+                    printf("4");
+                }
+                else
+                {
+                    printf("3");
+                }
+            }
+        }
+    }
+ }
